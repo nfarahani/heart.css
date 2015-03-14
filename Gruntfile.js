@@ -48,8 +48,8 @@ module.exports = function (grunt) {
         },
         connect: {
             options: {
-                port: 9000,
-                hostname: '0.0.0.0'
+                port: process.env.PORT || 9000,
+                hostname: process.env.IP || '0.0.0.0'
             },
             livereload: {
                 options: {

@@ -1,5 +1,5 @@
 $split-min-width: 320px;
-$split-width-breakpoint: 1024px;
+$split-width-breakpoint: 1280px;
 $split-width-content-extend: 0;
 //$split-width-aside-open: 100%;
 
@@ -159,7 +159,7 @@ button {
             box-shadow: none;
         }
         >.content-layer{
-            z-index: 1 !important;
+            // z-index: 1 !important;
             &:before{
                 opacity:0;
             }
@@ -177,7 +177,7 @@ button {
                 }
             }
             >.content-layer{
-                
+
             }
         }
     }
@@ -266,7 +266,7 @@ button {
                 &.num{
                     padding:0 8px;
                     font-size: 12px;
-                    min-width: 40px;                    
+                    min-width: 40px;
                     text-align: center;
                     padding: 2px 0;
                 }
@@ -317,7 +317,7 @@ button {
     @media screen and (min-width: $split-width-breakpoint) {
         box-shadow: 0 0 8px rgba(0,0,0,0.3);
     }
-    
+
 }
 
 ul.list-categories{
@@ -330,7 +330,7 @@ ul.list-categories{
         @include box-sizing(border-box);
         @include display-flex;
         @include align-items(center);
-    
+
         .icon{
             width:40px;
             padding:4px 0;
@@ -484,6 +484,6 @@ ul.list-mail{
                 width:60px;
             }
         }
-        
+
     }
 }
